@@ -1,0 +1,90 @@
+#navList{
+    list-style: none;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 150vh;
+    width: 150vw;
+    overflow-x: none;
+    background-color: beige;
+}
+.navContainer{
+    width: 100vw;
+    background-color: rgba(26, 26, 73, 0.776);
+    min-height: 80px;
+    /* border: 2px solid black; */
+}
+#text{
+    font-size: 2.8rem;
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#navItems{
+    
+    display: flex;
+    gap: 40px;
+}
+.footerBox{
+    width: 100vw;
+    background-color: rgba(26, 26, 73, 0.776);
+    text-align: center;
+    min-height: 40px;
+}
+.footerBox p{
+
+    color: whitesmoke;
+    font-size: 2rem;
+}
+.contentBox{
+    width: 90vw;
+    margin-left: 50px;
+    /* border: 1px solid black; */
+    background-color:whitesmoke;
+    padding: 3rem;
+    box-shadow: 0px 0px 30px black;
+
+}
+ .item{
+    display: flex;
+    justify-content: space-around;
+}
+
+ .rightBox {
+   
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 0.6s;
+    transition-delay: 0.2s;
+    transition-timing-function: linear
+
+} 
+
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.leftBox h2{
+    font-size: 2rem;
+}
+.ingBox{
+    font-size: 1.2rem;
+}
+.ipeBox{
+    font-size: 1.1rem;
+}
+.rightBox:hover{
+    transform: scale(1.1);
+}
